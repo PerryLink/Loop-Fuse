@@ -1,0 +1,18 @@
+[project]
+name = "loop-fuse"
+version = "0.1.0"
+description = "循环检测和熔断器，防止 AI Agent 陷入死循环"
+requires-python = ">=3.8"
+dependencies = [
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
