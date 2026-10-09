@@ -27,7 +27,8 @@
 ### Installation | 安装
 
 ```bash
-pip install loop-fuse
+pip install "git+https://github.com/PerryLink/Loop-Fuse.git"
+# （PyPI 未发布，源码直装）
 ```
 
 ### Basic Usage | 基础使用
